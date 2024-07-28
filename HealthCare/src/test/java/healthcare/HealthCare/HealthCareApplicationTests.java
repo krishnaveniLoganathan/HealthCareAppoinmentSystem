@@ -45,32 +45,7 @@ class HealthCareApplicationTests {
 	@Test
 	//++ve case patient details registered before an appoinment 
 	
-	
-	/*
-	 * {
-    "appoinmentId": 1,
-    "patientId": 1,
-    "patientName": null,
-    "doctorsName": null,
-    "appointmentOn": null
-	}
-	
-	{"name":"krish",
-"age":28,
-"email":"veni@gmail.com",
-"complaint" :"Headache",
-"type" :"IN"
-}
-
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 */
 	public void bookanAppointment() throws Exception {
-	   String uri = "/getappoinment";
 	   // valid appointment +ve case
 	   
 	   Patient patient = new Patient();
